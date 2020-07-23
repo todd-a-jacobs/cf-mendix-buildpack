@@ -95,6 +95,8 @@ class M2EEClient:
         echo_feedback = self.echo().get_feedback()
         if echo_feedback["echo"] != "pong":
             errors = echo_feedback["errors"]
+            logger.info("****")
+            logger.info("Errors: %s" % errors)
             # default to 3.0 format [{"message":"Hello,
             # world!","timestamp":1315316488958,"cause":""}, ...]
             if type(errors[0]) != dict:
