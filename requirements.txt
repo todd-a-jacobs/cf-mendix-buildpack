@@ -10,10 +10,8 @@ certifi==2020.12.5
     # via
     #   -r requirements.in
     #   requests
-chardet==3.0.4
+charset-normalizer==3.1.0
     # via requests
-dataclasses==0.7
-    # via omegaconf
 httplib2==0.19.0
     # via -r requirements.in
 idna==2.8
@@ -32,7 +30,7 @@ pyyaml==5.4.1
     # via
     #   -r requirements.in
     #   omegaconf
-requests==2.25.1
+requests==2.31.0
     # via -r requirements.in
 typing-extensions==3.7.4.2
     # via omegaconf

@@ -5,4 +5,4 @@ jinja2==2.11.3
 omegaconf==2.0.0
 psycopg2-binary==2.8.5
 pyyaml==5.4.1
-requests==2.25.1
+requests==2.31.0
